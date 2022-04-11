@@ -18,6 +18,8 @@
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
         <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="collapsible.html">Panier</a></li>
+        <li><a href="collapsible.html">Connexion</a></li>
       </ul>
     </div>
   </nav>
