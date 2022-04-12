@@ -2,8 +2,7 @@
 <style>
     @font-face {
         font-family: MeltedMonster;
-        src: url(../font/MeltedMonster.woff2);
-        format: ('woff2');
+        src: url(<?php echo $varFont; ?>) format('woff2');
     }
 
     .row {
