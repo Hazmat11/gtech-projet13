@@ -14,7 +14,11 @@
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">Logo</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="Users/inscription.php">Inscription</a></li>
+        <div class="centered-nav">
+          <a href="Users/inscription.php">la box du mois</a>
+          <a href="Users/inscription.php">la box du mois</a>
+        </div>
+        <a href="Users/inscription.php">Inscription</a>
       </ul>
     </div>
   </nav>
@@ -34,6 +38,9 @@
         </div>
       </div>
     <?php } ?>
+  </div>
+  <h2>Ajouter au panier</h2>
+  <h3>en savoir plus</h3>
 </body>
 
 </html>

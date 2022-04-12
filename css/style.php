@@ -16,6 +16,21 @@
     }
 
     h1 {
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: MeltedMonster;
+        color: #882d2d;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: MeltedMonster;
+        color: #882d2d;
+    }
+
+    h3 {
         text-transform: uppercase;
         text-align: center;
         font-family: MeltedMonster;
@@ -23,6 +38,15 @@
     }
 
     nav {
-        color: black;
+        background-color: black;
+    }
+
+    .centered-nav{
+        text-transform: uppercase;
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 </style>
