@@ -1,0 +1,14 @@
+.row {
+    max-width: fit-content;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #882d2d;
+}
+
+nav {
+    color: black;
+}

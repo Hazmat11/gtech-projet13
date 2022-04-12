@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+  }
+  
+  h1{
+    text-decoration: underline;
+  }
+  
+  .bloc_user{
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    font-size: 20px;
+    padding: 7px;
+  }
+  
+  .cardtxt{
+    border-width: 5px;
+    border-color: blue;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .cardimg{
+    border-width: 5px;
+    border-color: green;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .backgroundimg{
+    border-width: 5px;
+    border-color: yellow;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .Projet1{
+    border-width: 5px;
+    border-color: purple;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .Projet2{
+    border-width: 5px;
+    border-color: orange;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .Projet3{
+    border-width: 5px;
+    border-color: pink;
+    border-style: solid;
+    padding: 7px;
+  }
+  
+  .delete{
+    color: red;
+  }
+  
