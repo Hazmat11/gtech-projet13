@@ -5,5 +5,7 @@
   $pre->execute();
   $data = $pre->fetchAll(PDO::FETCH_ASSOC);
 
-  php $varFont = $user['font'] 
+  foreach($data as $user){ ?>
+ <?php  $varFont = $user['font']?>
+  <?php } ?>
 ?>

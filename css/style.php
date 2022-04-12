@@ -1,4 +1,4 @@
-<?php require_once "../config/fetchfont.php"; ?>
+<?php require_once "config/fetchfont.php"; ?>
 <style>
 @font-face {
     font-family: MeltedMonster;

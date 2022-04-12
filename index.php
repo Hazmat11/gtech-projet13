@@ -3,11 +3,10 @@
 
 <head>
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection" />
   <?php require_once "css/style.php"; ?>
   <meta charset="utf-8">
   <script src="js/script.js" charset="utf-8"></script>
-  <title></title>
+  <title>Gamebox</title>
 </head>
 
 <body>
