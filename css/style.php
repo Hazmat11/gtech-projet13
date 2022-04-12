@@ -1,8 +1,8 @@
-<?php require_once "./element/font.php"; ?>
+<?php require_once "../config/fetchfont.php"; ?>
 <style>
 @font-face {
     font-family: MeltedMonster;
-    src: url(../font/MeltedMonster.woff2) format('woff2');
+    src: url(<?php echo $fonts['mainfont'] ?>) format('ttf');
 }
 
 .row {
@@ -13,7 +13,7 @@
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-family: <?php echo $varfont;?>;
+    font-family: MeltedMonster;
     color: #882d2d;
 }
 
