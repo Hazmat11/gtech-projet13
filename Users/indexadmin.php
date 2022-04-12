@@ -72,6 +72,12 @@
   <form class="" action="../element/font.php" method="post" enctype="multipart/form-data">
     <input type="file" name="font" value="" placeholder="font">
     <button type="submit" name="button">Upload font</button>
+    Attention ! Format "woff2" obligatoire / ne pas mettre de espace dans le nom de la police
+  </form>
+  <h2>Changer background</h2>
+  <form class="" action="../element/background.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="bg" value="" placeholder="bg">
+    <button type="submit" name="button">Upload background</button>
   </form>
 </body>
 
