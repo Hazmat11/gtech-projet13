@@ -5,15 +5,19 @@
         src: url(<?php echo $varFont; ?>) format('woff2');
     }
 
-    body {
-        background: url(<?php echo $varBG; ?>);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
     #rowfirst {
         max-width: fit-content;
         justify-content: right;
+    }
+
+    #<?php echo $varPair ?>{
+        float:left;
+        margin-right:20px
+    }
+
+    #<?php echo $varImpair ?>{
+        float:right;
+        margin-left:20px
     }
 
     .blackh1 {
