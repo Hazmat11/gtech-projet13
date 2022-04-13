@@ -29,21 +29,21 @@
         text-transform: uppercase;
         text-align: center;
         font-family: MeltedMonster;
-        color: #882d2d;
+        color: #<?php echo $varColor; ?>;
     }
 
     h2 {
         text-transform: uppercase;
         text-align: center;
         font-family: MeltedMonster;
-        color: #882d2d;
+        color: #<?php echo $varColor ?>;
     }
 
     h3 {
         text-transform: uppercase;
         text-align: center;
         font-family: MeltedMonster;
-        color: #882d2d;
+        color: #<?php echo $varColor; ?>;
     }
 
     p {

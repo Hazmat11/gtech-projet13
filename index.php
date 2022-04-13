@@ -24,10 +24,6 @@
   <h1>la gamebox d'octobre sur le theme halloween</h1>
   <div class="row">
     <?php
-    $sql = "SELECT * FROM cards";
-    $pre = $pdo->prepare($sql);
-    $pre->execute();
-    $data = $pre->fetchAll(PDO::FETCH_ASSOC);
     foreach ($data as $cards) { ?>
       <div class="col">
         <div class="card" style="max-width: 250px; max-height: 250px;">

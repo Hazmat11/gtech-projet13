@@ -7,6 +7,7 @@
 
   foreach ($data as $user) { ?>
  <?php $varFont = $user['mainfont'] ?>
+ <?php $varColor = $user['fontcolor'] ?>
   <?php } ?>
 
   <?php
@@ -18,3 +19,5 @@
   foreach ($data as $user) { ?>
  <?php $varBG = $user['imgbackground'] ?>
   <?php } ?>
+
+
