@@ -60,12 +60,8 @@
     </form>
   </div>
   <h2>Changer color gradient</h2>
-  <div class="backgroundimg">
+  <div class="font color">
     <form class="" action="backgroundimg.php" method="post">
-      <input type="text" name="RGB1" value="" placeholder="Code RGB sans #">
-      <input type="text" name="RGB2" value="" placeholder="Code RGB sans #">
-      <input type="text" name="RGB3" value="" placeholder="Code RGB sans #">
-      <button type="submit" name="button">Submit</button>
     </form>
   </div>
   <h2>Changer font</h2>
