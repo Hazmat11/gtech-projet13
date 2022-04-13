@@ -29,10 +29,11 @@
     $pre->execute();
     $data = $pre->fetchAll(PDO::FETCH_ASSOC);
     foreach ($data as $cards) { ?>
-      <div class="col">
+      <div class="col l6">
         <div class="card" style="max-width: 250px; max-height: 250px;">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="<?php echo $cards['imgcard'] ?>" ;>
+            <p><?php echo $cards['id'] ?></p>
           </div>
         </div>
       </div>
@@ -41,21 +42,6 @@
   <a href="basket.php">
     <h2>Ajouter au panier</h2>
   </a>
-  <a href="more.php">
-    <h2>en savoir plus</h2>
-  </a>
-  <h1><br></h1>
-  <h1><br></h1>
-  <h1 class="blackh1" id="concept">notre concept</h1>
-  <div class="container">
-    <p>Gamebox propose tous les mois des box de jeux et goodies sur différents thèmes.
-      Chaque mois nous vous proposont une box contenant quatres jeux et deux goodies.
-      Trois jeux et un goodies est connu à l'avance et le quatrième jeu ainsi que le dernier goodies
-      sont des mystères. Les objets mystères seront bien sur en lien avec le thème du mois.
-    </p>
-  </div>
-  <div class="end">
-    <h1>test</h1>
   </div>
 </body>
 
