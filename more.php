@@ -21,7 +21,7 @@
       </ul>
     </div>
   </nav>
-  <h1>contenu de la box sur le thème halloween</h1>
+  <h2>contenu de la box sur le thème halloween</h2>
   <div class="row">
     <?php
     $sql = "SELECT * FROM cards";
