@@ -44,9 +44,7 @@
   <a href="more.php">
     <h2>en savoir plus</h2>
   </a>
-  <h1><br></h1>
-  <h1><br></h1>
-  <h1 class="blackh1" id="concept">notre concept</h1>
+  <h2 class="blackh1" id="concept">notre concept</h2>
   <div class="container">
     <p>Gamebox propose tous les mois des box de jeux et goodies sur différents thèmes.
       Chaque mois nous vous proposont une box contenant quatres jeux et deux goodies.
@@ -55,7 +53,7 @@
     </p>
   </div>
   <div class="end">
-    <h1>test</h1>
+    <h2>test</h2>
   </div>
 </body>
 
