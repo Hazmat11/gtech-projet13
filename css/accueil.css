@@ -1,0 +1,56 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body{
+  background: linear-gradient(270deg, #2672a6, #311b92, #000000);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+}
+
+.sign{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #ee6e73;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.errorpw{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #ee6e73;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
