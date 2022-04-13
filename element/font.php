@@ -2,14 +2,11 @@
 require_once "../config/config.php";
 
 $GLOBALS['varFont'] = $_FILES['font']['name'];
-$GLOBALS['varColor'] = $_FILES['colorfont']['name'];
-
 
 $destination = "../font/".$_FILES['font']['name']; //dossier "upload"
 move_uploaded_file($_FILES['font']['tmp_name'],$destination);
 
 $sql = "UPDATE fonts SET mainfont = 'font/$varFont' WHERE `fonts`.`id` = 1";
-$sql = "UPDATE fonts SET fontcolor = '$varColor' WHERE `fonts`.`id` = 1";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();

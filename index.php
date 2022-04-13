@@ -22,11 +22,15 @@
     </div>
   </nav>
   <h1>la gamebox d'octobre sur le theme halloween</h1>
-  <div class="row">
+  <div class="row" id="rowfirst">
     <?php
+    $sql = "SELECT * FROM cards";
+    $pre = $pdo->prepare($sql);
+    $pre->execute();
+    $data = $pre->fetchAll(PDO::FETCH_ASSOC);
     foreach ($data as $cards) { ?>
       <div class="col">
-        <div class="card" style="max-width: 250px; max-height: 250px;">
+        <div class="card" style="max-width: 250px; max-height: 350px;">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="<?php echo $cards['imgcard'] ?>" ;>
           </div>

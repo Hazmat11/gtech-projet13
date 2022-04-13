@@ -8,7 +8,7 @@ body{
     text-decoration: underline;
   }
   
-  .bloc_user{
+  .choosefont{
     border-width: 5px;
     border-color: red;
     border-style: solid;
@@ -16,7 +16,7 @@ body{
     padding: 7px;
   }
   
-  .cardtxt{
+  .choosecolor{
     border-width: 5px;
     border-color: blue;
     border-style: solid;
@@ -30,35 +30,9 @@ body{
     padding: 7px;
   }
   
-  .backgroundimg{
-    border-width: 5px;
-    border-color: yellow;
-    border-style: solid;
-    padding: 7px;
-  }
-  
-  .Projet1{
-    border-width: 5px;
-    border-color: purple;
-    border-style: solid;
-    padding: 7px;
-  }
-  
-  .Projet2{
-    border-width: 5px;
-    border-color: orange;
-    border-style: solid;
-    padding: 7px;
-  }
-  
-  .Projet3{
+  .changebg{
     border-width: 5px;
     border-color: pink;
     border-style: solid;
     padding: 7px;
   }
-  
-  .delete{
-    color: red;
-  }
-  
