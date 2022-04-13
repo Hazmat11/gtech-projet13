@@ -39,11 +39,14 @@
     <?php } ?>
   </div>
   <a href="basket.php">
-    <h2>Ajouter au panier</h2>
+    <h2 class="h2txt">Ajouter au panier</h2>
   </a>
   <a href="more.php">
-    <h2>en savoir plus</h2>
+    <h2 class="h2txt">en savoir plus</h2>
   </a>
+  <h2><br></h2>
+  <h2><br></h2>
+  <h2><br></h2>
   <h2 class="blackh1" id="concept">notre concept</h2>
   <div class="container">
     <p>Gamebox propose tous les mois des box de jeux et goodies sur différents thèmes.

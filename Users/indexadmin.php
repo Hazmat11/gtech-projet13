@@ -46,6 +46,18 @@
       <button type="submit" name="button">Upload background</button>
     </form>
   </div>
+  <h2>Changer text game</h2>
+  <div class="changetxt">
+    <form class="" action="../element/text.php" method="post" enctype="multipart/form-data">
+      <input type="text" name="txtgame1" value="" placeholder="description des jeux">
+      <input type="text" name="txtgame2" value="" placeholder="description des jeux">
+      <input type="text" name="txtgame3" value="" placeholder="description des jeux">
+      <input type="text" name="txtgame4" value="" placeholder="description des jeux">
+      <input type="text" name="txtgame5" value="" placeholder="description des jeux">
+      <input type="text" name="txtgame6" value="" placeholder="description des jeux">
+      <button type="submit" name="button">Upload font color</button>
+    </form>
+  </div>
 </body>
 
 </html>

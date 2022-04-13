@@ -8,7 +8,8 @@
     body {
         background: url(<?php echo $varBG; ?>);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        height: 100vh;
     }
 
     #rowfirst {
@@ -22,6 +23,10 @@
         text-align: center;
         font-family: MeltedMonster;
         color: black;
+    }
+
+    .h2txt {
+        font-size: 70px;
     }
 
     h1 {
@@ -86,7 +91,7 @@
         transform: translate(-100%, -50%);
     }
 
-    .end{
+    .end {
         background-color: black;
     }
 </style>
