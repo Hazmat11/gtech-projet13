@@ -2,6 +2,7 @@
 require_once "../config/config.php";
 
 $GLOBALS['varFont'] = $_FILES['font']['name'];
+$GLOBALS['varColor'] = $_FILES['colorfont']['name'];
 
 
 $destination = "../font/".$_FILES['font']['name']; //dossier "upload"
