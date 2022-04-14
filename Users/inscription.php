@@ -2,7 +2,7 @@
 
 
 <div class="sign">
-  <h1>Inscription</h1>
+  <h2>Inscription</h2>
   <div class="signin">
     <form method="post" action="signup.php">
       <input type='email' name='email' placeholder="Email"/>
@@ -11,7 +11,7 @@
       <input type='submit' value="M'inscrire" />
     </form>
   </div>
-  <h1>Connexion</h1>
+  <h2>Connexion</h2>
   <div class="signup">
     <form method="post" action="login.php">
       <input type='email' name='email' placeholder="Email"/>

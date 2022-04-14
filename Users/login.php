@@ -26,7 +26,7 @@
      }
     ?>
     <div class="signup">
-      <h1>Connexion</h1>
+      <h2>Connexion</h2>
       <form method="post" action="login.php">
         <input type='email' name='email' />
         <input type='password' name='password' />
