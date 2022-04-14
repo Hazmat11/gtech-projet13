@@ -16,6 +16,7 @@ $user = current($pre->fetchAll(PDO::FETCH_ASSOC)); //current prend la première 
     header('Location:indexadmin.php');
   }
 
+
   if (empty($user)) { //vérifie si le resultat est vide !
     echo "Email ou mot de passe incorrect !";
   } else {

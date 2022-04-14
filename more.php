@@ -21,8 +21,7 @@
             </ul>
         </div>
     </nav>
-    <h1>contenu de la box sur le thème halloween</h1>
-    <h1><br></h1>
+    <h2>contenu de la box sur le thème halloween</h2>
     <div class="container">
         <?php
         $sql = "SELECT * FROM cards;";
@@ -40,8 +39,9 @@
     <a href="basket.php">
         <h2>Ajouter au panier</h2>
     </a>
+    <h2 class="blackh1" id="concept">notre concept</h2>
     <div class="end">
-        <h1>test</h1>
+        <h2>test</h2>
     </div>
 </body>
 
