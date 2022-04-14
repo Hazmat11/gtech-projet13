@@ -24,30 +24,22 @@
     <h1>contenu de la box sur le thème halloween</h1>
     <h1><br></h1>
     <div class="container">
-        <div class="row">
-            <?php
-            $sql = "SELECT * FROM cards WHERE list='pair';";
-            $pre = $pdo->prepare($sql);
-            $pre->execute();
-            $data = $pre->fetchAll(PDO::FETCH_ASSOC);
-            foreach ($data as $cards) { ?>
-                <img class="activator floatRight" id="pair" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>" ;>
-                <p style="margin-bottom: 100px;"><?php echo $cards['imgtext'] ?></p>
-            <?php } ?>
-            <?php
-            $sql = "SELECT * FROM cards WHERE list='impair';";
-            $pre = $pdo->prepare($sql);
-            $pre->execute();
-            $data = $pre->fetchAll(PDO::FETCH_ASSOC);
-            foreach ($data as $cards) { ?>
-                <p style="margin-bottom: 100px;"><?php echo $cards['imgtext'] ?></p>
-                <img class="activator floatRight" id="impair" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>" ;> <?php } ?>
-        </div>
+        <?php
+        $sql = "SELECT * FROM cards;";
+        $pre = $pdo->prepare($sql);
+        $pre->execute();
+        $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($data as $cards) { ?>
+            <div style="min-height: 250px; max-height: 300px;">
+                <img class="activator floatRight" id="<?php echo $cards['list'] ?>" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>">
+                <p style="max-width: 1000px;"><?php echo $cards['imgtext'] ?></p>
+                <br>
+            </div>
+        <?php } ?>
     </div>
     <a href="basket.php">
         <h2>Ajouter au panier</h2>
     </a>
-    <h1 class="blackh1" id="concept">notre concept</h1>
     <div class="end">
         <h1>test</h1>
     </div>

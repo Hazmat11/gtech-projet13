@@ -5,19 +5,12 @@
         src: url(<?php echo $varFont; ?>) format('woff2');
     }
 
-    #rowfirst {
-        max-width: fit-content;
-        justify-content: right;
+    #<?php echo $varPair ?> {
+        float: left;
     }
 
-    #<?php echo $varPair ?>{
-        float:left;
-        margin-right:20px
-    }
-
-    #<?php echo $varImpair ?>{
-        float:right;
-        margin-left:20px
+    #<?php echo $varImpair ?> {
+        float: right;
     }
 
     .blackh1 {
@@ -90,7 +83,7 @@
         transform: translate(-100%, -50%);
     }
 
-    .end{
+    .end {
         background-color: black;
     }
 </style>
