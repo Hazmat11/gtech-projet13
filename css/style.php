@@ -91,7 +91,22 @@
         transform: translate(-100%, -50%);
     }
 
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item {
+        width: 10em;
+    }
+
+    i {
+        font-size: 300px;
+    }
+
     .end {
         background-color: black;
+        color: white;
     }
 </style>

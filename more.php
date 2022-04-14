@@ -4,6 +4,7 @@
 <head>
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <?php require_once "css/style2.php"; ?>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8">
     <script src="js/script.js" charset="utf-8"></script>
     <title>Gamebox</title>
@@ -17,7 +18,7 @@
                 <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
                 <a class="centered-nav" id="center" href="Users/inscription.php">|</a>
                 <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
-                <a href="Users/inscription.php">Inscription</a>
+                <i class="large material-icons">account_box</i>
             </ul>
         </div>
     </nav>
@@ -39,7 +40,6 @@
     <a href="basket.php">
         <h2>Ajouter au panier</h2>
     </a>
-    <h2 class="blackh1" id="concept">notre concept</h2>
     <div class="end">
         <h2>test</h2>
     </div>

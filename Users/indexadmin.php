@@ -8,11 +8,11 @@
 <body>
   <?php
 
-  // if ($_SESSION['email'] != 'ebertrand@gaming.tech') {
-  //   header('Location:index.php');
-  // }
+  if ($_SESSION['email'] != 'ebertrand@gaming.tech') {
+    header('Location:index.php');
+  }
   ?>
-  <h1>Liste des utilisateurs</h1>
+  <h2>Liste des utilisateurs</h2>
   <?php
   $sql = "SELECT * FROM user";
   $pre = $pdo->prepare($sql);

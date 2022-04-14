@@ -5,6 +5,7 @@
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <?php require_once "css/style.php"; ?>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="js/script.js" charset="utf-8"></script>
   <title>Gamebox</title>
 </head>
@@ -12,12 +13,15 @@
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
+      <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
-        <a class="centered-nav" id="center" href="Users/inscription.php">|</a>
+        <a class="centered-nav" id="center" href="">|</a>
         <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
-        <a href="Users/inscription.php">Inscription</a>
+        <div>
+          <a href="element/basket.php"><i class="medium material-icons">add_shopping_cart</i></a>
+          <a href="Users/inscription.php"><i class="medium material-icons">account_box</i></a>
+        </div>
       </ul>
     </div>
   </nav>
@@ -44,9 +48,6 @@
   <a href="more.php">
     <h2 class="h2txt">en savoir plus</h2>
   </a>
-  <h2><br></h2>
-  <h2><br></h2>
-  <h2><br></h2>
   <h2 class="blackh1" id="concept">notre concept</h2>
   <div class="container">
     <p>Gamebox propose tous les mois des box de jeux et goodies sur différents thèmes.
@@ -56,7 +57,7 @@
     </p>
   </div>
   <div class="end">
-    <h2>test</h2>
+    <img src="img/Sans titre.png" alt="">
   </div>
 </body>
 
