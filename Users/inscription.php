@@ -7,7 +7,6 @@
     <form method="post" action="signup.php">
       <input type='email' name='email' placeholder="Email"/>
       <input type='password' name='password' placeholder="Mot de passe"/>
-      <input type='text' name='login' placeholder="Pseudo"/>
       <input type='submit' value="M'inscrire" />
     </form>
   </div>

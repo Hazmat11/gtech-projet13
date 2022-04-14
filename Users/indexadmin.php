@@ -12,6 +12,34 @@
   //   header('Location:index.php');
   // }
   ?>
+  <h1>Liste des utilisateurs</h1>
+  <?php
+  $sql = "SELECT * FROM user";
+  $pre = $pdo->prepare($sql);
+  $pre->execute();
+  $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+
+  foreach ($data as $user) { ?>
+    <div class="user">
+      <div class="bloc_user">
+        <span class="email"><?php echo $user['email'] ?></span>
+        <form class="" action="../element/modifyuser.php" method="post">
+          <input type='email' name='email' placeholder="Email" />
+          <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
+          <button type="submit" name="button">Modifier Email</button>
+        </form>
+        <form class="" action="../element/modifyuser.php" method="post">
+          <input type='password' name='password' placeholder="Mot de passe" />
+          <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
+          <button type="submit" name="button">Modifier MDP</button>
+        </form>
+        <form class="" action="../element/modifyuser.php" method="post">
+          <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
+          <button class="delete" type="submit" name="button">Supprimer</button>
+        </form>
+      </div>
+    </div>
+  <?php } ?>
   <h2>Changer les images des cartes</h2>
   <div class="cardimg">
     <form class="" action="../element/cards.php" method="post" enctype="multipart/form-data">
