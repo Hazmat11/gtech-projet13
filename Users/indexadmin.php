@@ -33,7 +33,8 @@
           <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
           <button type="submit" name="button">Modifier MDP</button>
         </form>
-        <form class="" action="../element/modifyuser.php" method="post">
+        <form class="" action="../element/deleteuser.php" method="post">
+          <input type='hidden' name='delete' placeholder="delete" />
           <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
           <button class="delete" type="submit" name="button">Supprimer</button>
         </form>
