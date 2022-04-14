@@ -23,24 +23,18 @@
     </nav>
     <h2>contenu de la box sur le thème halloween</h2>
     <div class="container">
-        <div class="row">
         <?php
-    $sql = "SELECT * FROM cards";
-    $pre = $pdo->prepare($sql);
-    $pre->execute();
-    $data = $pre->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($data as $cards) { ?>
-      <div class="col l6">
-        <div class="card" style="max-width: 250px; max-height: 350px;">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" style="width: 250px; height: 200px;" src="<?php echo $cards['imgcard'] ?>" ;>
-            <p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla libero adipisci reiciendis cum vero fugit, amet id ullam, doloremque eaque officia. Quaerat tempore quis in ex praesentium molestiae minus nobis.</p>
-            <!-- <p style="font-size: 15px;"><?php echo $cards['id'] ?></p> -->
-          </div>
-        </div>
-      </div>
-    <?php } ?>
-        </div>
+        $sql = "SELECT * FROM cards;";
+        $pre = $pdo->prepare($sql);
+        $pre->execute();
+        $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+        foreach ($data as $cards) { ?>
+            <div style="min-height: 250px; max-height: 300px;">
+                <img class="activator floatRight" id="<?php echo $cards['list'] ?>" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>">
+                <p style="max-width: 1000px;"><?php echo $cards['imgtext'] ?></p>
+                <br>
+            </div>
+        <?php } ?>
     </div>
     <a href="basket.php">
         <h2>Ajouter au panier</h2>
