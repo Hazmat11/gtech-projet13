@@ -15,4 +15,4 @@ UPDATE cards SET imgtext = '$varTxt5' WHERE `cards`.`id` = 5;";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
-header('Location:../Users/indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !

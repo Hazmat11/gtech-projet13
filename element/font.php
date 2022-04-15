@@ -10,5 +10,5 @@ $sql = "UPDATE fonts SET mainfont = 'font/$varFont' WHERE `fonts`.`id` = 1";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
-header('Location:../Users/indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !
 ?>
