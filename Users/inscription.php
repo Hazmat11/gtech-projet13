@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-signin-client_id" content="932199003697-gqfkgqe9ornchc121gm1a4ohh8pko53o.apps.googleusercontent.com">
+  <meta name="google-signin-client_id" content="932199003697-g07sr47tjea7j0rab5tg8in7ndcq1k02.apps.googleusercontent.com">
   <link rel="stylesheet" href="../css/accueil.css">
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

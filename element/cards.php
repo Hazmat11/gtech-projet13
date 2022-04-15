@@ -17,23 +17,15 @@ move_uploaded_file($_FILES['card2']['tmp_name'],$destination);
 $destination = "../img/".$_FILES['card3']['name']; //dossier "upload"
 move_uploaded_file($_FILES['card3']['tmp_name'],$destination);
 
-$destination = "../img/".$_FILES['card4']['name']; //dossier "upload"
-move_uploaded_file($_FILES['card4']['tmp_name'],$destination);
-
 $destination = "../img/".$_FILES['card5']['name']; //dossier "upload"
 move_uploaded_file($_FILES['card5']['tmp_name'],$destination);
-
-$destination = "../img/".$_FILES['card6']['name']; //dossier "upload"
-move_uploaded_file($_FILES['card6']['tmp_name'],$destination);
 
 $sql = "UPDATE cards SET imgcard = 'img/$varcard1' WHERE `cards`.`id` = 1;
 UPDATE cards SET imgcard = 'img/$varcard2' WHERE `cards`.`id` = 2;
 UPDATE cards SET imgcard = 'img/$varcard3' WHERE `cards`.`id` = 3;
-UPDATE cards SET imgcard = 'img/$varcard4' WHERE `cards`.`id` = 4;
-UPDATE cards SET imgcard = 'img/$varcard5' WHERE `cards`.`id` = 5;
-UPDATE cards SET imgcard = 'img/$varcard6' WHERE `cards`.`id` = 6;";
+UPDATE cards SET imgcard = 'img/$varcard5' WHERE `cards`.`id` = 5;";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
-header('Location:../Users/indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !
 ?>

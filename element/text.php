@@ -11,9 +11,7 @@ $varTxt6 = $_POST['txtgame6'];
 $sql = "UPDATE cards SET imgtext = '$varTxt1' WHERE `cards`.`id` = 1;
 UPDATE cards SET imgtext = '$varTxt2' WHERE `cards`.`id` = 2;
 UPDATE cards SET imgtext = '$varTxt3' WHERE `cards`.`id` = 3;
-UPDATE cards SET imgtext = '$varTxt4' WHERE `cards`.`id` = 4;
-UPDATE cards SET imgtext = '$varTxt5' WHERE `cards`.`id` = 5;
-UPDATE cards SET imgtext = '$varTxt6' WHERE `cards`.`id` = 6;";
+UPDATE cards SET imgtext = '$varTxt5' WHERE `cards`.`id` = 5;";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
