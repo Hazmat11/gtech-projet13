@@ -10,5 +10,5 @@ $sql = "UPDATE backgrounds SET imgbackground = 'img/$varBG' WHERE `backgrounds`.
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
-header('Location:../Users/indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !
 ?>
