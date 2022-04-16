@@ -3,12 +3,25 @@
 
 <head>
 <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta charset="utf-8">
   <!-- <script src="js/script.js" charset="utf-8"></script> -->
   <link rel="stylesheet" href="css/paneladmin.css">
 </head>
 
 <body>
+
+<nav>
+    <div class="nav-wrapper black">
+      <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+        <a href="index.php"><i class=" right Large material-icons">home</i></a>
+        <a href=""><i class="right Large material-icons">add_shopping_cart</i></a>
+        <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
+      </ul>
+    </div>
+  </nav>
+
   <h2 style="color: white;">Changer les images des cartes</h2>
   <div class="cardimg">
     <form class="" action="element/cards.php" method="post" enctype="multipart/form-data"><div class="row" id="rowfirst">
@@ -97,6 +110,6 @@
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <!-- <script type="text/javascript" src="js/script.js"></script> -->
+  <script type="text/javascript" src="js/script.js"></script>
 
 </html>
