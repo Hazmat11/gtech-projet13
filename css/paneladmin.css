@@ -1,6 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
-    background-color: black;
-    color: white;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
     margin: 0;
   }
   

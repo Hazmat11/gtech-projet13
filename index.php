@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script src="js/script.js" charset="utf-8"></script>
   <title>Gamebox</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
@@ -18,10 +19,8 @@
         <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
         <a class="centered-nav" id="center" href="">|</a>
         <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
-        <div>
-          <a href="element/basket.php"><i class="medium material-icons">add_shopping_cart</i></a>
-          <a href="Users/inscription.php"><i class="medium material-icons">account_box</i></a>
-        </div>
+        <a href="element/basket.php"><i class="medium material-icons">add_shopping_cart</i></a>
+        <a href="Users/inscription.php"><i class="medium material-icons">account_box</i></a>
       </ul>
     </div>
   </nav>
@@ -36,15 +35,16 @@
       <div class="col">
         <div class="card" style="max-width: 250px; max-height: 350px;">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="<?php echo $cards['imgcard'] ?>" ;>
+            <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" ;>
           </div>
         </div>
       </div>
     <?php } ?>
   </div>
-  <a href="basket.php">
-    <h2 class="h2txt">Ajouter au panier</h2>
+  <a href="https://buy.stripe.com/fZedTTbPycBM2n63cc">
+    <h2 class="h2txt">Procéder au paiement avec carte</h2>
   </a>
+  
   <a href="more.php">
     <h2 class="h2txt">en savoir plus</h2>
   </a>
