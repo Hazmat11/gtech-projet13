@@ -108,5 +108,15 @@
     .end {
         background-color: black;
         color: white;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .end a {
+        text-align: center;
+    }
+
+    a {
+        color: inherit;
     }
 </style>

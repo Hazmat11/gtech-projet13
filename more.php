@@ -15,9 +15,7 @@
         <div class="nav-wrapper black">
             <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
             <ul id="nav-mobile" class="hide-on-med-and-down">
-                <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
-                <a class="centered-nav" id="center" href="">|</a>
-                <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
+                <a class="centered-nav" id="center" href="index.php">HOME</a>
                 <a href="index.php"><i class=" right Large material-icons">home</i></a>
                 <a href=""><i class="right Large material-icons">add_shopping_cart</i></a>
                 <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
@@ -34,7 +32,7 @@
         foreach ($data as $cards) { ?>
             <div style="min-height: 250px; max-height: 300px;">
                 <img class="activator floatRight" id="<?php echo $cards['list'] ?>" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>">
-                <p style="max-width: 1000px;"><?php echo $cards['imgtext'] ?></p>
+                <p class="id<?php echo $cards['id'] ?>" style="max-width: 1000px;"><?php echo $cards['imgtext'] ?></p>
                 <br>
             </div>
         <?php } ?>
