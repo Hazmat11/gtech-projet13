@@ -37,14 +37,6 @@
         color: black;
     }
 
-    h1 {
-        font-size: 100px;
-        text-transform: uppercase;
-        text-align: center;
-        font-family: MeltedMonster;
-        color: #<?php echo $varColor; ?>;
-    }
-
     h2 {
         text-transform: uppercase;
         text-align: center;
@@ -101,5 +93,21 @@
 
     .end {
         background-color: black;
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .end a {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .end img {
+        vertical-align: middle;
+    }
+
+    a {
+        color: inherit;
     }
 </style>
