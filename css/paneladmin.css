@@ -1,43 +1,55 @@
-html{
+html {
   scroll-behavior: smooth;
+  color: white;
+  margin: 0px;
 }
 
-body{
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    margin: 0;
-  }
-  
-  h1{
-    text-decoration: underline;
-  }
-  
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+}
 
-  .choosefont{
-    border-width: 5px;
-    border-color: red;
-    border-style: solid;
-    font-size: 20px;
-    padding: 7px;
-  }
-  
-  .choosecolor{
-    border-width: 5px;
-    border-color: blue;
-    border-style: solid;
-    padding: 7px;
-  }
-  
-  .cardimg{
-    border-width: 5px;
-    border-color: green;
-    border-style: solid;
-    padding: 7px;
-  }
-  
-  .changebg{
-    border-width: 5px;
-    border-color: pink;
-    border-style: solid;
-    padding: 7px;
-  }
+h1 {
+  text-decoration: underline;
+}
+
+span {
+  color: white;
+}
+
+.choosefont {
+  border-width: 5px;
+  border-color: red;
+  border-style: solid;
+  font-size: 20px;
+  padding: 7px;
+}
+
+.choosecolor {
+  border-width: 5px;
+  border-color: blue;
+  border-style: solid;
+  padding: 7px;
+}
+
+.cardimg {
+  border-width: 5px;
+  border-color: green;
+  border-style: solid;
+  padding: 7px;
+}
+
+.changebg {
+  border-width: 5px;
+  border-color: pink;
+  border-style: solid;
+  padding: 7px;
+}
+
+.user {
+  border-width: 5px;
+  border-color: rgb(5, 237, 253);
+  border-style: solid;
+  padding: 7px;
+  max-width: fit-content;
+}

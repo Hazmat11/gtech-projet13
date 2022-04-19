@@ -13,7 +13,7 @@ $user = current($pre->fetchAll(PDO::FETCH_ASSOC)); //current prend la première 
 
   if (($_POST['email'] == 'ebertrand@gaming.tech') and ($_POST['password'] == 'admin123')) {
     $_SESSION['email'] = 'ebertrand@gaming.tech';
-    header('Location:indexadmin.php');
+    header('Location:../indexadmin.php');
   }
 
 

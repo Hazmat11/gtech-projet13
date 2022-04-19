@@ -5,11 +5,11 @@
         src: url(<?php echo $varFont; ?>) format('woff2');
     }
 
-    body {
+    .firstpage {
         background: url(<?php echo $varBG; ?>);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: fit-content;
     }
 
     #rowfirst {

@@ -12,13 +12,15 @@
 
 <body>
     <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <div class="nav-wrapper black">
+            <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
+            <ul id="nav-mobile" class="hide-on-med-and-down">
                 <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
-                <a class="centered-nav" id="center" href="Users/inscription.php">|</a>
+                <a class="centered-nav" id="center" href="">|</a>
                 <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
-                <i class="large material-icons">account_box</i>
+                <a href="index.php"><i class=" right Large material-icons">home</i></a>
+                <a href=""><i class="right Large material-icons">add_shopping_cart</i></a>
+                <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
             </ul>
         </div>
     </nav>

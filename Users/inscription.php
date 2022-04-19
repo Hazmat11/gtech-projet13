@@ -16,7 +16,6 @@
       <form method="post" action="signup.php">
         <input type='email' name='email' placeholder="Email"/>
         <input type='password' name='password' placeholder="Mot de passe"/>
-        <input type='text' name='login' placeholder="Pseudo"/>
         <button class="btn waves-effect waves-light" type="submit" name="action">
           S'inscrire
           <i class="material-icons right">send</i>
