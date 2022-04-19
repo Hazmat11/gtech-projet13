@@ -62,10 +62,35 @@
     </div>
   </div>
   <div class="end">
-    <img src="img/Sans titre.png" alt="">
+    <img src="img/grandlogo.png" alt="" style="padding: 30px;">
     <a href="element/contact.php">Contact</a>
-    <a href="element/contact.php">mentions légales</a>
+    <a href="">/</a>
+    <button id="myBtn">Mentions légales</button>
   </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor arcu tempus aliquet convallis. Nunc vel erat sed mauris posuere placerat sed nec nisl. Donec placerat aliquam gravida. Suspendisse facilisis in nisl vel dignissim. Praesent nec arcu dui. Phasellus at elit nec nulla dignissim euismod quis eu nisl. Vivamus quis velit augue. Sed ac porta ligula. Curabitur vitae blandit massa. Curabitur mollis scelerisque vestibulum. Praesent sit amet orci ullamcorper, tincidunt urna sit amet, eleifend elit. Praesent ut ullamcorper est, non elementum sem. Maecenas mi velit, mattis sit amet mollis convallis, maximus eu ligula.</p>
+    </div>
+  </div>
+
+  <script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
 </body>
 
 </html>

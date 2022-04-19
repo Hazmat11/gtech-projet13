@@ -38,10 +38,13 @@
         <?php } ?>
     </div>
     <a href="basket.php">
-        <h2>Ajouter au panier</h2>
+        <h2 style="background-color: black;">Ajouter au panier</h2>
     </a>
     <div class="end">
-        <h2>test</h2>
+        <img src="img/grandlogo.png" alt="" style="padding: 30px;">
+        <a href="element/contact.php">Contact</a>
+        <a href="">/</a>
+        <a href="element/contact.php">mentions légales</a>
     </div>
 </body>
 
