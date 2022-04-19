@@ -64,6 +64,7 @@
   <div class="end">
     <img src="img/Sans titre.png" alt="">
     <a href="element/contact.php">Contact</a>
+    <a href="element/contact.php">mentions légales</a>
   </div>
 </body>
 

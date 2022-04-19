@@ -35,5 +35,5 @@ UPDATE cards SET imgcard = 'img/$varcard6' WHERE `cards`.`id` = 6;";
 
 $pre = $pdo->prepare($sql);
 $pre->execute();
-header('Location:../Users/indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !
 ?>

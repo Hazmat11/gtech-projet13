@@ -13,6 +13,22 @@
         float: right;
     }
 
+    .id4 {
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: MeltedMonster;
+        color: #<?php echo $varColor; ?>;
+    }
+
+    .id6 {
+        font-size: 100px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: MeltedMonster;
+        color: #<?php echo $varColor; ?>;
+    }
+
     .blackh1 {
         font-size: 100px;
         text-transform: uppercase;
