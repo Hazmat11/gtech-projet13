@@ -7,5 +7,5 @@ $dataBinded=array(
 $pre = $pdo->prepare($sql);
 $pre->execute($dataBinded);
 
-header('Location:../indexadmin.php');//on le redirige sur la page d'accueil du site !
+header('Location:../Users/list.php');//on le redirige sur la page d'accueil du site !
  ?>
