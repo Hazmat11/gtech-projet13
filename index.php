@@ -20,7 +20,7 @@
         <a class="centered-nav" id="center" href="">|</a>
         <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
         <a href="index.php"><i class=" right Large material-icons">home</i></a>
-        <a href="https://buy.stripe.com/fZedTTbPycBM2n63cc"><i class="right Large material-icons">add_shopping_cart</i></a>
+        <a href="basket.php"><i class="right Large material-icons">add_shopping_cart</i></a>
         <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
       </ul>
     </div>
@@ -38,13 +38,15 @@
         <div class="col">
           <div class="card" style="max-width: 250px; max-height: 350px;">
             <div class="card-image waves-effect waves-block waves-light">
+              <a href = "more.php">
               <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" ;>
+              </a>
             </div>
           </div>
         </div>
       <?php } ?>
     </div>
-    <a href="https://buy.stripe.com/fZedTTbPycBM2n63cc">
+    <a href="basket.php">
       <h2 class="h2txt">Procéder au paiement avec carte</h2>
     </a>
     <a href="more.php">
