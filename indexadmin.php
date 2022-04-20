@@ -22,6 +22,7 @@
       <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
       <ul id="nav-mobile" class="hide-on-med-and-down">
         <a href="index.php"><i class=" right Large material-icons">home</i></a>
+        <a href="basket.php"><i class="right Large material-icons">add_shopping_cart</i></a>
         <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
       </ul>
     </div>

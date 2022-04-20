@@ -10,6 +10,17 @@
   <title>Document</title>
 </head>
 <body>
+  
+<nav>
+  <div class="nav-wrapper black">
+      <img class="brand-logo" src="../img/logo.png" style="padding-top: 10px;" alt="logo">
+      <ul id="nav-mobile" class="hide-on-med-and-down">
+        <a href="../index.php"><i class=" right small material-icons">home</i></a>
+        <a href="../basket.php"><i class="right small material-icons">add_shopping_cart</i></a>
+      </ul>
+  </div>
+</nav>
+
   <div class="sign">
     <h2>Inscription</h2>
     <div class="signin">
@@ -45,15 +56,8 @@
         <div id="paypal-button-container"></div>
       </div>
     </div>
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="DX4VD7Z9PEFDQ">
-<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form>
-
-    </div>
   </div>
+</div>
 
   
   
