@@ -20,17 +20,17 @@
     foreach ($data as $user) { ?>
         <div class="user">
                 <span class="email"><?php echo $user['email'] ?></span>
-                <form class="" action="element/modifyuser.php" method="post">
+                <form class="" action="../element/modifyuser.php" method="post">
                     <input type='email' name='email' placeholder="Email" />
                     <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
                     <button type="submit" name="button">Modifier Email</button>
                 </form>
-                <form class="" action="element/modifyuser.php" method="post">
+                <form class="" action="../element/modifyuser.php" method="post">
                     <input type='password' name='password' placeholder="Mot de passe" />
                     <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
                     <button type="submit" name="button">Modifier MDP</button>
                 </form>
-                <form class="" action="element/deleteuser.php" method="post">
+                <form class="" action="../element/deleteuser.php" method="post">
                     <input type='hidden' name='delete' placeholder="delete" />
                     <input type="hidden" name="id" value="<?php echo $user['id'] ?>">
                     <button class="delete" type="submit" name="button">Supprimer</button>
