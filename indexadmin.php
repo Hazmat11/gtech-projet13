@@ -28,7 +28,7 @@
     </div>
   </nav>
 
-  <h2 style="color: white;">Liste des utilisateurs</h2>
+  <h1 style="color: white;">Liste des utilisateurs</h1>
   <a style="margin-left: 30px;" href="Users/list.php" class="waves-effect waves-light btn">GO TO THE LIST</a>
 
   <h2 style="color: white;">Changer les images des cartes</h2>
@@ -44,7 +44,7 @@
           <div class="col l2">
             <div class="card" style="max-width: 250px; max-height: 350px;">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" style="width: 250px; height: 200px;" src="<?php echo $cards['imgcard'] ?>" ;>
+                <img class="activator" style="width: 250px; height: 200px;" src="<?php echo $cards['imgcard'] ?>" alt="game">
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
       foreach ($data as $backgrounds) { ?>
         <div class="col">
           <div class="card" style="max-width: 250px; max-height: 350px;">
-            <img class="activator" style="width: 250px; height: 200px;" src="<?php echo $backgrounds['imgbackground'] ?>" ;>
+            <img class="activator" style="width: 250px; height: 200px;" src="<?php echo $backgrounds['imgbackground'] ?>" alt="background">
           </div>
         </div>
       <?php } ?>

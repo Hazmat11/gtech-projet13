@@ -39,15 +39,15 @@
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="DX4VD7Z9PEFDQ">
         <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-        <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+        <img alt="paypal" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
     </form>
 
     <a href="https://buy.stripe.com/6oEeXXf1K45gbXGeUW">
-        <h2 class="h2txt">Procéder au paiement avec carte</h2>
+        <h1 class="h2txt">Procéder au paiement avec carte</h1>
     </a>
 
     <div class="end">
-        <img src="img/Sans titre.png" alt="">
+        <img src="img/Sans titre.png" alt="logo">
     </div>
 </body>
 

@@ -17,7 +17,7 @@
       <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
       <ul id="nav-mobile" class="hide-on-med-and-down">
         <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
-        <a class="centered-nav" id="center" href="">|</a>
+        <a class="centered-nav" id="center">|</a>
         <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
         <a href="index.php"><i class=" right Large material-icons">home</i></a>
         <a href="basket.php"><i class="right Large material-icons">add_shopping_cart</i></a>
@@ -35,11 +35,11 @@
       $pre->execute();
       $data = $pre->fetchAll(PDO::FETCH_ASSOC);
       foreach ($data as $cards) { ?>
-        <div class="col">
+        <div class="col l2 s6">
           <div class="card" style="max-width: 250px; max-height: 350px;">
             <div class="card-image waves-effect waves-block waves-light">
               <a href = "more.php">
-              <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" ;>
+              <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" alt="game">
               </a>
             </div>
           </div>
@@ -64,7 +64,7 @@
     </div>
   </div>
   <div class="end">
-    <img src="img/grandlogo.png" alt="" style="padding: 30px;">
+    <img src="img/grandlogo.png" alt="logo" style="padding: 30px;">
     <a href="element/contact.php">Contact</a>
     <a href="">/</a>
     <button id="myBtn">Mentions légales</button>

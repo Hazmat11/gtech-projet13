@@ -17,7 +17,7 @@
             <ul id="nav-mobile" class="hide-on-med-and-down">
                 <a class="centered-nav" id="center" href="index.php">HOME</a>
                 <a href="index.php"><i class=" right Large material-icons">home</i></a>
-                <a href=""><i class="right Large material-icons">add_shopping_cart</i></a>
+                <a href="basket.php"><i class="right Large material-icons">add_shopping_cart</i></a>
                 <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
             </ul>
         </div>
@@ -31,7 +31,7 @@
         $data = $pre->fetchAll(PDO::FETCH_ASSOC);
         foreach ($data as $cards) { ?>
             <div style="min-height: 250px; max-height: 300px;">
-                <img class="activator floatRight" id="<?php echo $cards['list'] ?>" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>">
+                <img class="activator floatRight" id="<?php echo $cards['list'] ?>" style="max-width: 250px; max-height: 250px;" src="<?php echo $cards['imgcard'] ?>" alt="game">
                 <p class="id<?php echo $cards['id'] ?>" style="max-width: 1000px;"><?php echo $cards['imgtext'] ?></p>
                 <br>
             </div>
@@ -41,9 +41,9 @@
         <h2 style="background-color: black;">Ajouter au panier</h2>
     </a>
     <div class="end">
-        <img src="img/grandlogo.png" alt="" style="padding: 30px;">
+        <img src="img/grandlogo.png" alt="logo" style="padding: 30px;">
         <a href="element/contact.php">Contact</a>
-        <a href="">/</a>
+        <a>/</a>
         <a href="element/contact.php">mentions légales</a>
     </div>
 </body>
