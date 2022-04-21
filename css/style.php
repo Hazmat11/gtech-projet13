@@ -160,4 +160,44 @@
         text-decoration: none;
         cursor: pointer;
     }
+
+    .row {
+        display: flex;
+        flex-wrap: warp;
+        margin: 0 -16px;
+    }
+
+    .col-25 {
+        flex: 25%;
+    }
+    
+    .col-50 {
+        flex: 50%;
+    }
+
+    .col-75 {
+        flex: 75%;
+    }
+
+    .col-25,
+    .col-50,
+    .col-75 {
+        padding: 0 16px;
+    }
+
+    hr {
+        border: 1px solid lightgrey;
+    }
+
+    span.price {
+        float: right;
+        color: grey;
+    }
+
+    .block {
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+    }
 </style>
