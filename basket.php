@@ -13,16 +13,14 @@
 
 <body>
   <nav>
-    <div class="nav-wrapper">
-      <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <a class="centered-nav-right" id="center" href="more.php">la box du mois</a>
-        <a class="centered-nav" id="center" href="">|</a>
-        <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
-        <a href="basket.php"><i class="medium material-icons">add_shopping_cart</i></a>
-        <a href="Users/inscription.php"><i class="medium material-icons">account_box</i></a>
-      </ul>
-    </div>
+      <div class="nav-wrapper black">
+        <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
+        <ul id="nav-mobile" class="hide-on-med-and-down">
+          <a class="centered-nav-right" id="center">Panier</a>
+          <a href="index.php"><i class=" right Large material-icons">home</i></a>
+          <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
+        </ul>
+      </div>
   </nav>
 
   <div class="rol">
@@ -35,7 +33,7 @@
               <div align="center">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="DX4VD7Z9PEFDQ">
+                  <input type="hidden" name="hosted_button_id" value="SHY5UAKYAGGV8">
                   <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
                   <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
               </div>

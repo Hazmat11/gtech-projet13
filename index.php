@@ -23,7 +23,11 @@
         <a class="centered-nav-left" id="center" href="#concept">Notre concept</a>
         <a href="index.php"><i class=" right Large material-icons">home</i></a>
         <a href="basket.php"><i class="right Large material-icons">add_shopping_cart</i></a>
-        <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
+        <?php if (isset($_SESSION['user'])): ?>
+          <a href="Users/logout.php"><i class=" right Large material-icons">clear</i></a>
+        <?php else: ?>
+          <a href="Users/inscription.php"><i class=" right Large material-icons">account_box</i></a>
+        <?php endif; ?>
       </ul>
     </div>
   </nav>

@@ -19,7 +19,8 @@ $user = current($pre->fetchAll(PDO::FETCH_ASSOC)); //current prend la première 
 
   if (empty($user)) { //vérifie si le resultat est vide !
     echo "Email ou mot de passe incorrect !";
-  } else {
+  } 
+  else{
     $_SESSION['user'] = $user; //on enregistre que l'utilisateur est connecté
     header('Location:../index.php'); //on le redirige sur la page d'accueil du site !
   }
