@@ -12,9 +12,9 @@
 <body>
 
   <?php
-  if ($_SESSION['email'] != 'ebertrand@gaming.tech') {
-    header('Location:index.php');
-  }
+    if ($_SESSION['email'] != 'ebertrand@gaming.tech') {
+      header('Location:index.php');
+    }
   ?>
 
   <nav>

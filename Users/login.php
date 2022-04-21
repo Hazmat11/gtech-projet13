@@ -24,12 +24,3 @@ $user = current($pre->fetchAll(PDO::FETCH_ASSOC)); //current prend la première 
     header('Location:../index.php'); //on le redirige sur la page d'accueil du site !
   }
   ?>
-  <div class="signup">
-    <h1>Connexion</h1>
-    <form method="post" action="login.php">
-      <input type='email' name='email' />
-      <input type='password' name='password' />
-      <input type='submit' value='Me connecter' />
-    </form>
-  </div>
-</div>

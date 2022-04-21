@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-signin-client_id" content="932199003697-g07sr47tjea7j0rab5tg8in7ndcq1k02.apps.googleusercontent.com">
-  <link rel="stylesheet" href="../css/accueil.css">
+  <?php require_once "../css/styleInscription.php"; ?>
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Document</title>
@@ -21,8 +21,8 @@
     </div>
 </nav>
 
-<div class="row sign">
-    <h2>Inscription</h2>
+<div class="row sign firstpage">
+    <h1>Inscription</h1>
     <div class="col s12 m12 l12 signin">
       <form method="post" action="signup.php">
         <input type='email' name='email' placeholder="Email"/>
@@ -63,7 +63,6 @@
 
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/materialize.min.js"></script>
-<!-- <script type="text/javascript" src="../js/signin.js"></script> -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </html>
