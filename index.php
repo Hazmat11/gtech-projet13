@@ -38,8 +38,8 @@
         <div class="col l2 s6">
           <div class="card" style="max-width: 250px; max-height: 350px;">
             <div class="card-image waves-effect waves-block waves-light">
-              <a href = "more.php">
-              <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" alt="game">
+              <a href="more.php">
+                <img class="activator" style="width: 250px; height: 350px;" src="<?php echo $cards['imgcard'] ?>" alt="game">
               </a>
             </div>
           </div>
@@ -72,7 +72,14 @@
   <div id="myModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor arcu tempus aliquet convallis. Nunc vel erat sed mauris posuere placerat sed nec nisl. Donec placerat aliquam gravida. Suspendisse facilisis in nisl vel dignissim. Praesent nec arcu dui. Phasellus at elit nec nulla dignissim euismod quis eu nisl. Vivamus quis velit augue. Sed ac porta ligula. Curabitur vitae blandit massa. Curabitur mollis scelerisque vestibulum. Praesent sit amet orci ullamcorper, tincidunt urna sit amet, eleifend elit. Praesent ut ullamcorper est, non elementum sem. Maecenas mi velit, mattis sit amet mollis convallis, maximus eu ligula.</p>
+      <?php
+      $sql = "SELECT * FROM mention";
+      $pre = $pdo->prepare($sql);
+      $pre->execute();
+      $data = $pre->fetchAll(PDO::FETCH_ASSOC);
+      foreach ($data as $mention) { ?>
+        <p><?php echo $mention['text'] ?></p>
+      <?php } ?>
     </div>
   </div>
 

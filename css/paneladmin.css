@@ -53,3 +53,7 @@ span {
   padding: 7px;
   max-width: fit-content;
 }
+
+input[type=text] {
+  color: white;
+}

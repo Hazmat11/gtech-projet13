@@ -114,7 +114,20 @@
         <input type="text" name="txtgame3" value="" placeholder="description des jeux">
         <input type="text" name="txtgame5" value="" placeholder="description des jeux">
       </div>
-      <button type="submit" name="button">Upload font color</button>
+      <button type="submit" name="button">Upload desc game</button>
+    </form>
+  </div>
+</body>
+
+<!-- Changer mention légales -->
+
+<h2 style="color: white;">Changer mention légales</h2>
+  <div class="changetxt row">
+    <form class="" action="element/mention.php" method="post" enctype="multipart/form-data">
+      <div classe="col l2">
+        <input type="text" name="txt" value="" placeholder="mentions légales">
+      </div>
+      <button type="submit" name="button">Upload text mention</button>
     </form>
   </div>
 </body>
