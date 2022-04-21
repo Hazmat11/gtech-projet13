@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +9,21 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Document</title>
 </head>
+
 <body>
-  
-<nav>
-  <div class="nav-wrapper black">
-      <img class="brand-logo" src="../img/logo.png" style="padding-top: 10px;" alt="logo">
-      <ul id="nav-mobile" class="hide-on-med-and-down">
-        <a href="../index.php"><i class=" right small material-icons">home</i></a>
-        <a href="../basket.php"><i class="right small material-icons">add_shopping_cart</i></a>
-      </ul>
-  </div>
+<nav class="row">
+    <div class="col s12 m12 l12 nav-wrapper black">
+        <img class="brand-logo left" src="../img/logo.png" style="padding-top: 10px;" alt="logo">
+          <ul id="nav-mobile" class="hide-on-med-and-down">
+            <a href="../index.php"><i class="right small material-icons">home</i></a>
+            <a href="../basket.php"><i class="right small material-icons">add_shopping_cart</i></a>
+          </ul>
+    </div>
 </nav>
 
-  <div class="sign">
+<div class="row sign">
     <h2>Inscription</h2>
-    <div class="signin">
+    <div class="col s12 m12 l12 signin">
       <form method="post" action="signup.php">
         <input type='email' name='email' placeholder="Email"/>
         <input type='password' name='password' placeholder="Mot de passe"/>
@@ -35,7 +35,7 @@
       </form>
     </div>
     <h2>Connexion</h2>
-    <div class="signup">
+    <div class="col s12 m12 l12 signup">
       <form method="post" action="login.php">
         <input type='email' name='email' placeholder="Email"/>
         <input type='password' name='password' placeholder="Mot de passe"/>
@@ -46,17 +46,16 @@
         <div class="g-signin2 center" data-onsuccess="onSignIn"></div>
       </form>
     </div>
-    <div id="smart-button-container">
+    <div id="col s12 m12 l12 smart-button-container">
       <div style="text-align: center;">
         <div id="paypal-button-container"></div>
       </div>
     </div>
-    <div id="smart-button-container">
+    <div id="col s12 m12 l12 smart-button-container">
       <div style="text-align: center;">
         <div id="paypal-button-container"></div>
       </div>
     </div>
-  </div>
 </div>
 
   
@@ -65,7 +64,7 @@
 
 <script type="text/javascript" src="../js/jquery.js"></script>
 <script type="text/javascript" src="../js/materialize.min.js"></script>
-<script type="text/javascript" src="../js/signin.js"></script>
+<!-- <script type="text/javascript" src="../js/signin.js"></script> -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </html>
