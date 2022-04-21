@@ -1,5 +1,6 @@
 <html lang="fr">
 <head>
+  <title>Gamebox</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,22 @@
   <?php require_once "../css/styleInscription.php"; ?>
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <title>Document</title>
 </head>
 
 <body>
-<nav class="row">
-    <div class="col s12 m12 l12 nav-wrapper black">
-        <img class="brand-logo left" src="../img/logo.png" style="padding-top: 10px;" alt="logo">
-          <ul id="nav-mobile" class="hide-on-med-and-down">
-            <a href="../index.php"><i class="right small material-icons">home</i></a>
-            <a href="../basket.php"><i class="right small material-icons">add_shopping_cart</i></a>
-          </ul>
-    </div>
-</nav>
+  <nav class="row">
+      <div class="col s12 m12 l12 nav-wrapper black">
+          <img class="brand-logo left" src="../img/logo.png" style="padding-top: 10px;" alt="Gamebox logo">
+            <ul id="nav-mobile" class="hide-on-med-and-down">
+              <a href="../index.php"><i class="right small material-icons">home</i></a>
+              <a href="../basket.php"><i class="right small material-icons">add_shopping_cart</i></a>
+            </ul>
+      </div>
+  </nav>
 
-<div class="row sign firstpage">
+  <div class="row sign firstpage">
+
+    <!-- inscription part -->
     <h1>Inscription</h1>
     <div class="col s12 m12 l12 signin">
       <form method="post" action="signup.php">
@@ -33,6 +35,8 @@
         </button>
       </form>
     </div>
+
+    <!-- connexion part -->
     <h2>Connexion</h2>
     <div class="col s12 m12 l12 signup">
       <form method="post" action="login.php">
@@ -55,10 +59,7 @@
         <div id="paypal-button-container"></div>
       </div>
     </div>
-</div>
-
-  
-  
+  </div>
 </body>
 
 <script type="text/javascript" src="../js/jquery.js"></script>

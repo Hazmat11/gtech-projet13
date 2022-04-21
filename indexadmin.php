@@ -28,9 +28,12 @@
     </div>
   </nav>
 
+  <!-- modify users -->
   <h1 style="color: white;">Liste des utilisateurs</h1>
   <a style="margin-left: 30px;" href="Users/list.php" class="waves-effect waves-light btn">GO TO THE LIST</a>
 
+
+  <!-- change pictures -->
   <h2 style="color: white;">Changer les images des cartes</h2>
   <div class="cardimg">
     <form class="" action="element/cards.php" method="post" enctype="multipart/form-data">
@@ -119,7 +122,7 @@
   </div>
 </body>
 
-<!-- Changer mention légales -->
+<!-- change legals mentions-->
 
 <h2 style="color: white;">Changer mention légales</h2>
   <div class="changetxt row">

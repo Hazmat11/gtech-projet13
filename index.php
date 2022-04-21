@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+  <!-- navbar -->
   <nav>
     <div class="nav-wrapper black">
       <img class="brand-logo" src="img/logo.png" style="padding-top: 10px;" alt="logo">
@@ -25,7 +27,6 @@
       </ul>
     </div>
   </nav>
-
   <div class="firstpage">
     <h1 style="margin-top: 0px; padding-top: 20px">la gamebox d'octobre sur le theme halloween</h1>
     <div class="row" id="rowfirst">
@@ -53,6 +54,8 @@
       <h2 style="padding-bottom: 30px;" class="h2txt">en savoir plus</h2>
     </a>
   </div>
+
+  <!-- presentation -->
   <div>
     <h2 class="blackh1" id="concept">notre concept</h2>
     <div class="container">
@@ -63,6 +66,8 @@
       </p>
     </div>
   </div>
+
+  <!-- end part with legals mentions -->
   <div class="end">
     <img src="img/grandlogo.png" alt="logo" style="padding: 30px;">
     <a href="element/contact.php">Contact</a>

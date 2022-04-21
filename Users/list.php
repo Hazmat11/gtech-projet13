@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>Gamebox</title>
     <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta charset="utf-8">
@@ -13,7 +14,7 @@
 
 <nav>
     <div class="nav-wrapper black">
-      <img class="brand-logo" src="../img/logo.png" style="padding-top: 10px;" alt="logo">
+      <img class="brand-logo" src="../img/logo.png" style="padding-top: 10px;" alt="Gamebox logo">
       <ul id="nav-mobile" class="hide-on-med-and-down">
         <a href="../indexadmin.php"><i class=" right small material-icons">perm_identity</i></a>
         <a href="../index.php"><i class=" right small material-icons">home</i></a>
