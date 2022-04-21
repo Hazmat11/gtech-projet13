@@ -25,21 +25,23 @@
     </div>
   </nav>
 
-  <div class="row">
+  <div class="rol">
     <div class="col-75">
       <div class="block">
-        <div class="row">
+        <div class="rol">
           <div class="col-50">
             <h3>Moyens de paiement</h3>
             <from>
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="DX4VD7Z9PEFDQ">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                <a href="https://buy.stripe.com/6oEeXXf1K45gbXGeUW">
-                  <p>Payer avec la carte</p>
-                </a>
+              <div align="center">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="DX4VD7Z9PEFDQ">
+                  <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </div>
+              <a href="https://buy.stripe.com/6oEeXXf1K45gbXGeUW">
+                <p>Payer avec la carte</p>
+              </a>
               </form>
             </from>
           </div>
