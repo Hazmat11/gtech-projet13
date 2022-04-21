@@ -161,7 +161,7 @@
         cursor: pointer;
     }
 
-    .row {
+    .rol {
         display: flex;
         flex-wrap: warp;
         margin: 0 -16px;
